@@ -1,9 +1,9 @@
 import recipedata from "./recipe.json";
 
 function RecipeName() {
-  return recipedata;
+  return null;
 }
 
 export default RecipeName;
 
-//import return the name of the recipe as a level 1 header
+//import return the name of the recipe as a level 1 header`

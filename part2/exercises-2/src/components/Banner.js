@@ -1,9 +1,9 @@
 import './styles.css';
 
 function Banner(){
-   return(
-      <h1>Hello, World!</h1>
-   );
+  return(
+   <h1>This is react  a complonent</h1>
+  )
 }
 
 export default Banner;
