@@ -7,14 +7,15 @@ import RecipeImage from "./components/RecipeImage";
 import RecipeName from "./components/RecipeName";
 
 export default function App() {
+
   return (
-    <>
+    < div>
       <RecipeImage />
-      <RecipeName />
+      <RecipeName  />
       <RateARecipe rating={4} />
       <Button saveButton={false} />
       <AuthorInfo />
-      <IngredientList />
-    </>
+      <IngredientList/>
+    </div>
   );
 }
